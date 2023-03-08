@@ -1,0 +1,54 @@
+* {
+  margin : 0; 
+  padding : 0; 
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  background-color : salmon; 
+  background-image : radial-gradient(whitesmoke, salmon);   
+  display: flex;  
+  justify-content: center ; 
+  
+  
+}  
+
+.imageDiv {
+  min-width : max(90%, 25rem);  
+  height : 600px;
+  border : 5px solid black; 
+  display : flex;  
+  flex-direction: column;  
+  border-radius: 15px;
+  background: #FEC5BB;
+  position : relative;  
+  align-items: center; 
+  justify-content: center;
+} 
+
+img {
+  border : 2px double black; 
+  border-radius : 15px;  
+  width : 350px; 
+  height : 380px; 
+  background : aliceblue;
+  
+}  
+
+figcaption { 
+  
+  text-align: center; 
+  margin-top : 40px ; 
+  font-size : 20px ; 
+  font-weight : bold;
+}
+button{
+  position : absolute ; 
+  bottom: 0; 
+  width : 200px; 
+  height : 40px; 
+  color : white; 
+  background : Black; 
+  border-radius : 10px;
+}
