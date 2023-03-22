@@ -1,4 +1,4 @@
-# HeroAPI 
+# Deployed Link : https://bishalkar10.github.io/HeroAPI/
 You just need an browser to run the code.   
 How to get this code on your computer :   
    1. create same name file as on the Repository.  Copy paste the code, 
